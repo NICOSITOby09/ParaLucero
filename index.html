@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Para mi meja</title>
+</head>
+<body onclick="PlayAudio()">
+    <div class="container">
+        <iframe src="https://gifer.com/embed/1fW0" width=480 height=436.800 frameBorder="0" allowFullScreen></iframe><p><a></a></p>
+        <h1>Te digo porq eres mi meja para mi?</h1>
+        <p>selecciona una opcion :)</p>
+        <div class="btn">
+            <a href="si.html">Dime</a>
+            <a href="no1.html">No me importa</a>
+        </div>
+    </div>
+    <audio id="musica1" autoplay loop>
+        <source src="APT.mp3" type="audio/mpeg">
+        <source src="APT.ogg" type="audio/ogg">
+        <source src="APT.wav" type="audio/wav">
+    </audio>
+    <section>
+    <script>
+        function PlayAudio(){
+            document.getElementById("musica1").play();
+        }
+    </script>
+</body>
+</html>
